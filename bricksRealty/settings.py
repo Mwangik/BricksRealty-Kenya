@@ -142,12 +142,7 @@ MESSAGE_TAGS = {
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
-# email config
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'gitaukelvin7@gmail.com'
-EMAIL_HOST_PASSWORD = 'monster1995'
-EMAIL_USE_TLS=True
+
 
 try:
     from.local_settings import *
