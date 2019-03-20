@@ -31,13 +31,13 @@ def contact(request):
 
         contact.save()
 
-        #send mail
-        send_mail(
-            'property Listing Inquiry',
-            'There has been an inquiry for '+ listing + '. Sign into the admin for more info',
-            'gitaukelvin7@gmail.com',
-            ['gkmwangi0@gmail.com'],
-            fail_silently=False
+        # #send mail
+        # send_mail(
+        #     'property Listing Inquiry',
+        #     'There has been an inquiry for '+ listing + '. Sign into the admin for more info',
+        #     'gitaukelvin7@gmail.com',
+        #     ['gkmwangi0@gmail.com'],
+        #     fail_silently=False
 
 
         )
